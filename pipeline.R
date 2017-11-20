@@ -1,8 +1,8 @@
-binRCfile = "/home/daewoooo/MaRyam/TestData/data/skin/D2Rfb.100000_fixed.txt.gz"
-BRfile = "/home/daewoooo/MaRyam/TestData/data/skin/D2Rfb.100000_fixed.many.txt"
-infoFile = "/home/daewoooo/MaRyam/TestData/data/skin/D2Rfb.100000_fixed.info"
-stateFile = "/home/daewoooo/MaRyam/TestData/data/skin/D2Rfb.final.txt"
-outputDir = "/home/daewoooo/MaRyam/TestData/data/"
+binRCfile = "/home/mgharegh/research/HDhackathon/data/skin/D2Rfb.100000_fixed.txt.gz"
+BRfile = "/home/mgharegh/research/HDhackathon/data/skin/D2Rfb.100000_fixed.many.txt"
+infoFile = "/home/mgharegh/research/HDhackathon/data/skin/D2Rfb.100000_fixed.info"
+stateFile = "/home/mgharegh/research/HDhackathon/data/skin/D2Rfb.final.txt"
+outputDir = "/home/mgharegh/research/HDhackathon/data/skin/"
 K = 22
 maximumCN = 5
 bin.size = 100000
@@ -15,4 +15,4 @@ p = NBparams[[1]]
 r = NBparams[[2]]
 segmentsCounts = getSegReadCounts(binRC, BRfile, K, bin.size)
 
-SVcalling.wrapper.func(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes, outputDir, hapMode = haplotypInfo)
+SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes, outputDir, hapMode = haplotypInfo)
