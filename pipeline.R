@@ -1,12 +1,29 @@
-binRCfile = "/home/mgharegh/research/HDhackathon/data/skin/D2Rfb.100000_fixed.txt.gz"
-BRfile = "/home/mgharegh/research/HDhackathon/data/skin/D2Rfb.100000_fixed.many.txt"
-infoFile = "/home/mgharegh/research/HDhackathon/data/skin/D2Rfb.100000_fixed.info"
-stateFile = "/home/mgharegh/research/HDhackathon/data/skin/D2Rfb.final.txt"
-outputDir = "/home/mgharegh/research/HDhackathon/data/skin/"
-K = 22
-maximumCN = 5
-bin.size = 100000
+args = commandArgs(trailingOnly=TRUE)
+#print(args)
+#print(class(args))
+args = as.data.frame(strsplit(args, split = "="), stringsAsFactors = F)
+#print(args)
+
+binRCfile = args[2,match("binRCfile", as.character(args[1,]))]
+BRfile = args[2,match("BRfile", as.character(args[1,]))]
+infoFile = args[2,match("infoFile", as.character(args[1,]))]
+stateFile = args[2,match("stateFile", as.character(args[1,]))]
+outputDir = args[2,match("outputDir", as.character(args[1,]))]
+bin.size = as.numeric(args[2,match("bin.size", as.character(args[1,]))])
+K = as.numeric(args[2,match("K", as.character(args[1,]))])
+maximumCN = as.numeric(args[2,match("maximumCN", as.character(args[1,]))])
 haplotypInfo=F
+if (any(as.character(args[1,])=="haplotypeInfo")){haplotypInfo = T}
+
+print(paste("Rdirectory =", Rdirectory))
+print(paste("binRCfile =", binRCfile))
+print(paste("BRfile =", BRfile))
+print(paste("infoFile =", infoFile))
+print(paste("stateFile =", stateFile))
+print(paste("outputDir =", outputDir))
+print(paste("bin.size =", bin.size))
+print(paste("K =", K))
+print(paste("maximumCN =", maximumCN))
 
 binRC = splitChromosomes(changeRCformat(binRCfile, outputDir))
 cellTypes = changeCellTypesFormat(stateFile)
