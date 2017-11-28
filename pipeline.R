@@ -16,7 +16,6 @@ maximumCN = as.numeric(args[2,match("maximumCN", as.character(args[1,]))])
 haplotypInfo=F
 if (any(as.character(args[1,])=="haplotypeInfo")){haplotypInfo = T}
 
-print(paste("Rdirectory =", Rdirectory))
 print(paste("binRCfile =", binRCfile))
 print(paste("BRfile =", BRfile))
 print(paste("infoFile =", infoFile))
