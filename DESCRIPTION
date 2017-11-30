@@ -14,7 +14,8 @@ Depends:
   gtable,
   reshape2,
   gridExtra,
-  GenomicRanges
+  GenomicRanges,
+  data.table
 Imports:
   IRanges,
   Rsamtools,
