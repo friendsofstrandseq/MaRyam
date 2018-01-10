@@ -31,4 +31,4 @@ License:
 LazyLoad: yes
 Packaged: 2017-11-12 13:00:00 CET+1; Porubsky
 VignetteBuilder: knitr
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

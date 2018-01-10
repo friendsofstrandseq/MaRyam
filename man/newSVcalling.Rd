@@ -17,4 +17,3 @@ Takes as an input an aggregate prob table and call each segment by the haplotype
 \author{
 Maryam Ghareghani
 }
-

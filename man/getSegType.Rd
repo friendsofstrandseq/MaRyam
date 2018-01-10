@@ -17,4 +17,3 @@ Compute the segment type given a cell (majority) type and the segment status and
 \author{
 Maryam Ghareghani
 }
-

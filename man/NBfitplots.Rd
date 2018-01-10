@@ -25,4 +25,3 @@ Create seperate PDF files for different chromosomes and in each file, create plo
 \author{
 Maryam Ghareghani
 }
-

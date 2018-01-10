@@ -5,7 +5,7 @@
 \title{Main function for the \pkg{\link{MaRyam}} package.}
 \usage{
 SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes,
-  outputDir, hapMode)
+  outputDir, haplotypeMode)
 }
 \arguments{
 \item{bin.size}{the size of the bins}
@@ -16,15 +16,15 @@ SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes,
 
 \item{segmentsCounts}{TODO ...}
 
-\item{r}{TODO ...}
+\item{r}{The matrix of dispersion parameters of chromosomes(rows) and cells(columns) for CN=2 for a segment of size bin.size}
 
-\item{p}{TODO ...}
+\item{p}{The p parameter of the NB distribution}
 
-\item{cellTypes}{TODO ... In function getSegType there is a parameter cellType. Are these paramters expecting the same thing? If not please use bit more informative name.}
+\item{cellTypes}{The matrix of cell types of chromosomes(rows) and cells(columns) TODO ... In function getSegType there is a parameter cellType. Are these paramters expecting the same thing? If not please use bit more informative name.}
 
 \item{outputDir}{The outputDir containing the input and output files.}
 
-\item{hapMode}{TODO ... #There is a haplotypeMode parameter in newSVcalling function. I guess they point to the same parameter.}
+\item{haplotypeMode}{a binary parameter showing wether we have the haplotype of WC cell types TODO ... #There is a haplotypeMode parameter in newSVcalling function. I guess they point to the same parameter.}
 }
 \description{
 Wrapper function to run SV calling after having the NB parmeters and segment read counts.
@@ -32,4 +32,3 @@ Wrapper function to run SV calling after having the NB parmeters and segment rea
 \author{
 Maryam Ghareghani
 }
-

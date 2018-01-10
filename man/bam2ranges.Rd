@@ -22,4 +22,3 @@ Import aligned reads from a BAM file into a \code{\link[GenomicRanges]{GRanges}}
 \author{
 David Porubsky
 }
-

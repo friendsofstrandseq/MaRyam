@@ -17,4 +17,3 @@ Estimates p parameter and saves the empirical mean-var plot in the \code{directo
 \author{
 Maryam Ghareghani
 }
-

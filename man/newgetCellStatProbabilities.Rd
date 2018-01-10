@@ -5,7 +5,7 @@
 \title{Returns a matrix of haplotype (rows) pobabilities in different single cells (columns).}
 \usage{
 newgetCellStatProbabilities(hapStatus, counts, chrCellTypes, p,
-  chrCellsDispPars, binLen, alpha, haplotypeMode = FALSE)
+  chrCellsDispPars, binLength, alpha, haplotypeMode = FALSE)
 }
 \arguments{
 \item{hapStatus}{A \code{vector} of decoded halotype status (strings).}
@@ -18,8 +18,6 @@ newgetCellStatProbabilities(hapStatus, counts, chrCellTypes, p,
 
 \item{chrCellsDispPars}{The dispersion parameters of cells for the chromosome where the segment resides.}
 
-\item{binLen}{The length of the bins used for estimating the NB parameters.}
-
 \item{alpha}{The coefficient of NB dispersion parameter for the number of background reads.}
 
 \item{haplotypeMode}{TODO ...}
@@ -30,4 +28,3 @@ Returns a matrix of haplotype (rows) pobabilities in different single cells (col
 \author{
 Maryam Ghareghani
 }
-

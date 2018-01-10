@@ -24,4 +24,3 @@ Plot probability table as a heatmap.
 \author{
 David Porubsky
 }
-

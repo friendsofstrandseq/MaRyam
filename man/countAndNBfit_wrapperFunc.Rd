@@ -26,4 +26,3 @@ Counts the number of Watson and Crick reads of single cells in bins and segments
 \author{
 Maryam Ghareghani
 }
-

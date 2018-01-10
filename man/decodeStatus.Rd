@@ -15,4 +15,3 @@ Converts a binary status to an integer vector status.
 \author{
 Maryam Ghareghani
 }
-

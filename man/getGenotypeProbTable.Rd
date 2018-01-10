@@ -15,4 +15,3 @@ Compute a noramlInvCN probability table given the haplotype probability table.
 \author{
 Maryam Ghareghani
 }
-

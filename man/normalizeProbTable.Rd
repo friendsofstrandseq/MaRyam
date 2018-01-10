@@ -15,4 +15,3 @@ Normalize a probability table to a table in which each column sums up to 1.
 \author{
 Maryam Ghareghani
 }
-

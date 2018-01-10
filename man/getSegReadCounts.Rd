@@ -21,4 +21,3 @@ TODO Write function description or remove from the file!!!
 \author{
 Maryam Ghareghani
 }
-

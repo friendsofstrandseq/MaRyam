@@ -15,4 +15,3 @@ Note that it doesn't compute the genotype (distribution of the CNs in the haplot
 \author{
 Maryam Ghareghani
 }
-

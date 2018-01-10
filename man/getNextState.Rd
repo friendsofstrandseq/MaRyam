@@ -15,4 +15,3 @@ Computes the next binary status of a given status with equal number of 0s and 1s
 \author{
 Maryam Ghareghani
 }
-

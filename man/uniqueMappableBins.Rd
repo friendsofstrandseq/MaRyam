@@ -19,4 +19,3 @@ Outputs the list of indices of the bins having the fraction of low mapq reads le
 \author{
 Maryam Ghareghani
 }
-

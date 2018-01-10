@@ -15,4 +15,3 @@ returns the number of a chromosome, given the input string
 \author{
 Maryam Ghareghani
 }
-

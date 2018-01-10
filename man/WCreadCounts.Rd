@@ -17,4 +17,3 @@ Count the number of Watson and Crick reads and return a \code{dataframe} of read
 \author{
 Maryam Ghareghani
 }
-

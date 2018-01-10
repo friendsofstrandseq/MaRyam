@@ -19,4 +19,3 @@ Changes the format of all files to the format used in the SV calling wrapper fun
 \author{
 Maryam Ghareghani
 }
-

@@ -15,4 +15,3 @@ Takes as input a haplotype probTable and outout the genotype probTable.
 \author{
 Maryam Ghareghani
 }
-

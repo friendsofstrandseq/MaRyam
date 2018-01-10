@@ -15,4 +15,3 @@ Outputs the list of indices of the bins with non zero coverage.
 \author{
 Maryam Ghareghani
 }
-

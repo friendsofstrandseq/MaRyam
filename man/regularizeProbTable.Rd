@@ -17,4 +17,3 @@ Regularize the probability table according to the mentioned assumption.
 \author{
 Maryam Ghareghani
 }
-

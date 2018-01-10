@@ -27,4 +27,3 @@ Generate a CN probability vector.
 \author{
 Maryam Ghareghani
 }
-

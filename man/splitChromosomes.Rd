@@ -15,4 +15,3 @@ Splits a \code{data.frame} of read counts based on chromosomes and returns a \co
 \author{
 Maryam Ghareghani
 }
-

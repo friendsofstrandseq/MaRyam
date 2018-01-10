@@ -22,4 +22,3 @@ Plot reads based on directionality
 \author{
 Ashley Sanders
 }
-

@@ -17,8 +17,8 @@ outputDir = args[2,match("outputDir", as.character(args[1,]))]
 bin.size = as.numeric(args[2,match("bin.size", as.character(args[1,]))])
 K = as.numeric(args[2,match("K", as.character(args[1,]))])
 maximumCN = as.numeric(args[2,match("maximumCN", as.character(args[1,]))])
-haplotypInfo=F
-if (any(as.character(args[1,])=="haplotypeInfo")){haplotypInfo = T}
+haplotypeMode=F
+if (any(as.character(args[1,])=="haplotypeMode")){haplotypeMode = T}
 
 print(paste("binRCfile =", binRCfile))
 print(paste("BRfile =", BRfile))
@@ -36,7 +36,7 @@ p = NBparams[[1]]
 r = NBparams[[2]]
 segmentsCounts = getSegReadCounts(binRC, BRfile, K, bin.size)
 
-SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes, outputDir, hapMode = haplotypInfo)
+SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes, outputDir, haplotypeMode = haplotypeMode)
 
 
 #dir = "/home/maryam/research/HDhackathon/data/test_small_data/"

@@ -17,4 +17,3 @@ Estimates r parameters
 \author{
 Maryam Ghareghani
 }
-

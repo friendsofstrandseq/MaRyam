@@ -17,4 +17,3 @@ Generates all binary strings with n 0s and m 1s.
 \author{
 Maryam Ghareghani
 }
-

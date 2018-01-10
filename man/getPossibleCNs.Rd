@@ -23,4 +23,3 @@ Returns all CNs with maximum probability.
 \author{
 Maryam Ghareghani
 }
-

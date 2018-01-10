@@ -15,4 +15,3 @@ Compute a genotype probability table given the haplotype probability table.
 \author{
 Maryam Ghareghani
 }
-

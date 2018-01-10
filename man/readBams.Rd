@@ -19,4 +19,3 @@ Read bam files from a directory and output them (the first mates only) as a list
 \author{
 Maryam Ghareghani
 }
-

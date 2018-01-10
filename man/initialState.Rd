@@ -17,4 +17,3 @@ Returns the first binary string with n 01 and m 1s.
 \author{
 Maryam Ghareghani
 }
-

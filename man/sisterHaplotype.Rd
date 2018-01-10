@@ -15,4 +15,3 @@ Takes as an input a haplotype state and returns the opposite haplotype state whi
 \author{
 Maryam Ghareghani
 }
-

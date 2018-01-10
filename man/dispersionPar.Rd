@@ -4,7 +4,7 @@
 \alias{dispersionPar}
 \title{Compute the dispersion paramters, given a segment type.}
 \usage{
-dispersionPar(segType, r, segLen = binLen, binLen, alpha = 0.05)
+dispersionPar(segType, r, segLen = binLength, binLength, alpha = 0.05)
 }
 \arguments{
 \item{segType}{A string containing a number of w characters followed by a number of c characters.}
@@ -12,8 +12,6 @@ dispersionPar(segType, r, segLen = binLen, binLen, alpha = 0.05)
 \item{r}{Dispersion parameter for the total number of read counts (W+C in all cells) in a bin with a diploid copy number (2).}
 
 \item{segLen}{The length of the segment.}
-
-\item{binLen}{The length of the bins used for estimating the NB parameters.}
 
 \item{alpha}{The coefficient of NB dispersion parameter for the number of background reads.}
 }
@@ -23,4 +21,3 @@ Compute the dispersion paramters, given a segment type.
 \author{
 Maryam Ghareghani
 }
-
