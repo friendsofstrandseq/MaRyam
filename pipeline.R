@@ -1,3 +1,7 @@
+library(devtools) 
+install_git("git://github.com/friendsofstrandseq/MaRyam.git", branch = "master")
+library("MaRyam")
+
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
 #print(args)
@@ -33,3 +37,15 @@ r = NBparams[[2]]
 segmentsCounts = getSegReadCounts(binRC, BRfile, K, bin.size)
 
 SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes, outputDir, hapMode = haplotypInfo)
+
+
+#dir = "/home/maryam/research/HDhackathon/data/test_small_data/"
+#Rscript pipeline.R binRCfile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.txt.gz" BRfile="/home/maryam/research/HDhackathon/data/test_small_data/few_brs.txt" infoFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.info" stateFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.final.txt" outputDir="/home/maryam/research/HDhackathon/data/test_small_data/" bin.size=100000 K=22 maximumCN=4
+# binRCfile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.txt.gz"
+# BRfile="/home/maryam/research/HDhackathon/data/test_small_data/few_brs.txt"
+# infoFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.info"
+# stateFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.final.txt"
+# outputDir="/home/maryam/research/HDhackathon/data/test_small_data/"
+# bin.size=100000
+# K=22
+# maximumCN=4
