@@ -32,8 +32,8 @@ print(paste("maximumCN =", maximumCN))
 l <- changeRCformat(binRCfile, outputDir)
 cellNames <- l$cellNames
 initial.binRC <- l$binRC
-f <- factor(initial.binRC$chromosome, levels=unique(initail.binRC$chromosome))
-binRC <- split(initail.binRC, f)
+f <- factor(initial.binRC$chromosome, levels=unique(initial.binRC$chromosome))
+binRC <- split(initial.binRC, f)
 
 cellTypes = changeCellTypesFormat(stateFile, cellNames)
 NBparams = changeNBparamsFormat(infoFile, K)
