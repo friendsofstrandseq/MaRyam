@@ -50,11 +50,11 @@ SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes, o
 # K=24
 # maximumCN=4
 
-# binRCfile="/home/maryam/research/hackathons/data/counts/HG00733.100000_fixed.txt.gz"
-# BRfile="/home/maryam/research/hackathons/data/segmentation2/HG00733.100000_fixed.few.txt"
-# infoFile="/home/maryam/research/hackathons/data/counts/HG00733.100000_fixed.info"
-# stateFile="/home/maryam/research/hackathons/data/HG00733.final.txt"
-# outputDir="/home/maryam/research/hackathons/data/"
-# bin.size=100000
-# K=22
-# maximumCN=4
+binRCfile="/home/maryam/research/hackathons/data/HG00514/HG00514.500000_fixed.txt.gz"
+BRfile="/home/maryam/research/hackathons/data/HG00514/HG00514.500000_fixed.many.txt"
+infoFile="/home/maryam/research/hackathons/data/HG00514/HG00514.500000_fixed.info"
+stateFile="/home/maryam/research/hackathons/data/HG00514/HG00514.final.txt"
+outputDir="/home/maryam/research/hackathons/data/HG00514/"
+bin.size=500000
+K=22
+maximumCN=4
