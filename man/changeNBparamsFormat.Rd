@@ -4,12 +4,14 @@
 \alias{changeNBparamsFormat}
 \title{Changes the format of the NB parameters and gives as output p parameter and a matrix containing r parameters}
 \usage{
-changeNBparamsFormat(infoFile, K)
+changeNBparamsFormat(infoFile, K, cellNames)
 }
 \arguments{
 \item{infoFile}{The name of the file containing the NB parameters}
 
 \item{K}{The number of chromosomes (autosomes).}
+
+\item{cellNames}{The names of the single cells in the correct order}
 }
 \description{
 Changes the format of the NB parameters and gives as output p parameter and a matrix containing r parameters

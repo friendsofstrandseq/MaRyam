@@ -19,5 +19,5 @@ getSegReadCounts(binRC, breakpointsFile, K, bin.size)
 outputs the segment counts
 }
 \author{
-Maryam Ghareghani
+Maryam Ghareghani, Sascha Meiers
 }

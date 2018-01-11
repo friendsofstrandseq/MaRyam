@@ -8,10 +8,12 @@ changeCellTypesFormat(stateFile, cellNames)
 }
 \arguments{
 \item{stateFile}{The name of the file containing the cell types}
+
+\item{cellNames}{The names of the single cells in the correct order}
 }
 \description{
 Changes the format of the cell types file and gives as output the cell types matrix
 }
 \author{
-Maryam Ghareghani
+Maryam Ghareghani, Sascha Meiers
 }

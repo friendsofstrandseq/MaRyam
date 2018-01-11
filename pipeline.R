@@ -36,7 +36,7 @@ f <- factor(initial.binRC$chromosome, levels=unique(initial.binRC$chromosome))
 binRC <- split(initial.binRC, f)
 
 cellTypes = changeCellTypesFormat(stateFile, cellNames)
-NBparams = changeNBparamsFormat(infoFile, K)
+NBparams = changeNBparamsFormat(infoFile, K, cellNames)
 p = NBparams[[1]]
 r = NBparams[[2]]
 segmentsCounts = getSegReadCounts(binRC, BRfile, K, bin.size)
