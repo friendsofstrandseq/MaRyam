@@ -7,11 +7,11 @@
 changeRCformat(RCfile, outputDir, bamNamesFile = "bamNames.txt")
 }
 \arguments{
-\item{RCfile}{TODO ...}
+\item{RCfile}{The name of the file containing bin read counts}
 
 \item{outputDir}{The directory containing the output files.}
 
-\item{bamNamesFile}{TODO ...}
+\item{bamNamesFile}{Outputs the names of the bam files in the order they are used in the tool}
 }
 \description{
 Changes the format of all files to the format used in the SV calling wrapper function.

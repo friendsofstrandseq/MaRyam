@@ -40,12 +40,21 @@ SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes, o
 
 
 #dir = "/home/maryam/research/HDhackathon/data/test_small_data/"
-#Rscript pipeline.R binRCfile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.txt.gz" BRfile="/home/maryam/research/HDhackathon/data/test_small_data/few_brs.txt" infoFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.info" stateFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.final.txt" outputDir="/home/maryam/research/HDhackathon/data/test_small_data/" bin.size=100000 K=22 maximumCN=4
+#Rscript pipeline.R binRCfile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.txt.gz" BRfile="/home/maryam/research/HDhackathon/data/test_small_data/few_brs.txt" infoFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.info" stateFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.final.txt" outputDir="/home/maryam/research/HDhackathon/data/test_small_data/" bin.size=100000 K=24 maximumCN=4
 # binRCfile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.txt.gz"
 # BRfile="/home/maryam/research/HDhackathon/data/test_small_data/few_brs.txt"
 # infoFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.info"
 # stateFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.final.txt"
 # outputDir="/home/maryam/research/HDhackathon/data/test_small_data/"
+# bin.size=100000
+# K=24
+# maximumCN=4
+
+# binRCfile="/home/maryam/research/hackathons/data/counts/HG00733.100000_fixed.txt.gz"
+# BRfile="/home/maryam/research/hackathons/data/segmentation2/HG00733.100000_fixed.few.txt"
+# infoFile="/home/maryam/research/hackathons/data/counts/HG00733.100000_fixed.info"
+# stateFile="/home/maryam/research/hackathons/data/HG00733.final.txt"
+# outputDir="/home/maryam/research/hackathons/data/"
 # bin.size=100000
 # K=22
 # maximumCN=4

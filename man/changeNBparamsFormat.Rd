@@ -2,17 +2,17 @@
 % Please edit documentation in R/wrapper_formatChange.R
 \name{changeNBparamsFormat}
 \alias{changeNBparamsFormat}
-\title{TODO Write function description or remove from the file!!!}
+\title{Changes the format of the NB parameters and gives as output p parameter and a matrix containing r parameters}
 \usage{
 changeNBparamsFormat(infoFile, K)
 }
 \arguments{
-\item{infoFile}{TODO ...}
+\item{infoFile}{The name of the file containing the NB parameters}
 
 \item{K}{The number of chromosomes (autosomes).}
 }
 \description{
-TODO Write function description or remove from the file!!!
+Changes the format of the NB parameters and gives as output p parameter and a matrix containing r parameters
 }
 \author{
 Maryam Ghareghani

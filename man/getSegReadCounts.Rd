@@ -2,21 +2,21 @@
 % Please edit documentation in R/wrapper_formatChange.R
 \name{getSegReadCounts}
 \alias{getSegReadCounts}
-\title{TODO Write function description or remove from the file!!!}
+\title{outputs the segment counts}
 \usage{
 getSegReadCounts(binRC, breakpointsFile, K, bin.size)
 }
 \arguments{
-\item{binRC}{TODO ...}
+\item{binRC}{bin read counts splitted by chromosomes}
 
-\item{breakpointsFile}{TODO ...}
+\item{breakpointsFile}{The name of the breakpoint file}
 
 \item{K}{The number of chromosomes (autosomes).}
 
 \item{bin.size}{The size of the bins.}
 }
 \description{
-TODO Write function description or remove from the file!!!
+outputs the segment counts
 }
 \author{
 Maryam Ghareghani

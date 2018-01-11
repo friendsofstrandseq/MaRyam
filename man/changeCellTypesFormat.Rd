@@ -2,15 +2,15 @@
 % Please edit documentation in R/wrapper_formatChange.R
 \name{changeCellTypesFormat}
 \alias{changeCellTypesFormat}
-\title{TODO Write function description or remove from the file!!!}
+\title{Changes the format of the cell types file and gives as output the cell types matrix}
 \usage{
 changeCellTypesFormat(stateFile)
 }
 \arguments{
-\item{stateFile}{TODO ...}
+\item{stateFile}{The name of the file containing the cell types}
 }
 \description{
-TODO Write function description or remove from the file!!!
+Changes the format of the cell types file and gives as output the cell types matrix
 }
 \author{
 Maryam Ghareghani
