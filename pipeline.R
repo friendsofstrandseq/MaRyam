@@ -29,8 +29,13 @@ print(paste("bin.size =", bin.size))
 print(paste("K =", K))
 print(paste("maximumCN =", maximumCN))
 
-binRC = splitChromosomes(changeRCformat(binRCfile, outputDir))
-cellTypes = changeCellTypesFormat(stateFile)
+l <- changeRCformat(binRCfile, outputDir)
+cellNames <- l$cellNames
+initial.binRC <- l$binRC
+f <- factor(initial.binRC$chromosome, levels=unique(initail.binRC$chromosome))
+binRC <- split(initail.binRC, f)
+
+cellTypes = changeCellTypesFormat(stateFile, cellNames)
 NBparams = changeNBparamsFormat(infoFile, K)
 p = NBparams[[1]]
 r = NBparams[[2]]
