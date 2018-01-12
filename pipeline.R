@@ -44,16 +44,16 @@ segmentsCounts = getSegReadCounts(binRC, BRfile, K, bin.size)
 SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes, outputDir, haplotypeMode = haplotypeMode)
 
 
-#dir = "/home/maryam/research/HDhackathon/data/test_small_data/"
+dir = "/home/maryam/research/HDhackathon/data/test_small_data/"
 #Rscript pipeline.R binRCfile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.txt.gz" BRfile="/home/maryam/research/HDhackathon/data/test_small_data/few_brs.txt" infoFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.info" stateFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.final.txt" outputDir="/home/maryam/research/HDhackathon/data/test_small_data/" bin.size=100000 K=24 maximumCN=4
-# binRCfile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.txt.gz"
-# BRfile="/home/maryam/research/HDhackathon/data/test_small_data/few_brs.txt"
-# infoFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.info"
-# stateFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.final.txt"
-# outputDir="/home/maryam/research/HDhackathon/data/test_small_data/"
-# bin.size=100000
-# K=24
-# maximumCN=4
+binRCfile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.txt.gz"
+BRfile="/home/maryam/research/HDhackathon/data/test_small_data/few_brs.txt"
+infoFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.100000_fixed.info"
+stateFile="/home/maryam/research/HDhackathon/data/test_small_data/D2Rfb.final.txt"
+outputDir="/home/maryam/research/HDhackathon/data/test_small_data/"
+bin.size=100000
+K=24
+maximumCN=4
 
 binRCfile="/home/maryam/research/hackathons/data/HG00514/HG00514.500000_fixed.txt.gz"
 BRfile="/home/maryam/research/hackathons/data/HG00514/HG00514.500000_fixed.many.txt"
