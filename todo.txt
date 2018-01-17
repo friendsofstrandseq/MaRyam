@@ -1,0 +1,3 @@
+Do not kick out SCEs.
+Make the package work on sex chrmosomes as well.
+Define a finction that takes as input a bed file and gives as output the breakpoints file in Sascha's format.
