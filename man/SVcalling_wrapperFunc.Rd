@@ -14,7 +14,7 @@ SVcalling_wrapperFunc(bin.size, K, maximumCN, segmentsCounts, r, p, cellTypes,
 
 \item{maximumCN}{Maximum CN in the segments for SV calling. #TODO make sure parameters correspond to maxCN paramter in getCNprob}
 
-\item{segmentsCounts}{TODO ...}
+\item{segmentsCounts}{The dataframe containing the segments chr and coordinates and W and C read counts over all cells}
 
 \item{r}{The matrix of dispersion parameters of chromosomes(rows) and cells(columns) for CN=2 for a segment of size bin.size}
 

@@ -54,6 +54,7 @@ outputDir="/home/maryam/research/HDhackathon/data/test_small_data/"
 bin.size=100000
 K=24
 maximumCN=4
+haplotypeMode=F
 
 binRCfile="/home/maryam/research/hackathons/data/HG00514/HG00514.500000_fixed.txt.gz"
 BRfile="/home/maryam/research/hackathons/data/HG00514/HG00514.500000_fixed.many.txt"
