@@ -2,9 +2,9 @@
 % Please edit documentation in R/wrapper_formatChange.R
 \name{changeRCformat}
 \alias{changeRCformat}
-\title{Changes the format of all files to the format used in the SV calling wrapper function.}
+\title{Changes the format of all files to the format used in the SV calling wrapper function, and estimates the dispersion paramters based on p parameter and bin read counts}
 \usage{
-changeRCformat(RCfile, outputDir, bamNamesFile = "bamNames.txt")
+changeRCformat(RCfile, outputDir, bamNamesFile = "bamNames.txt", p)
 }
 \arguments{
 \item{RCfile}{The name of the file containing bin read counts}
@@ -12,9 +12,11 @@ changeRCformat(RCfile, outputDir, bamNamesFile = "bamNames.txt")
 \item{outputDir}{The directory containing the output files.}
 
 \item{bamNamesFile}{Outputs the names of the bam files in the order they are used in the tool}
+
+\item{p}{the p parameter of the NB distribution}
 }
 \description{
-Changes the format of all files to the format used in the SV calling wrapper function.
+Changes the format of all files to the format used in the SV calling wrapper function, and estimates the dispersion paramters based on p parameter and bin read counts
 }
 \author{
 Maryam Ghareghani, Sascha Meiers
