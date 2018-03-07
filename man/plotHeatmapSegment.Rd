@@ -4,11 +4,14 @@
 \alias{plotHeatmapSegment}
 \title{Main heatmap function}
 \usage{
-plotHeatmapSegment(dataFrame, plot.log = FALSE, file = NULL, aggProbs = F,
-  CNV = 3)
+plotHeatmapSegment(dataFrame, ord.feature = NULL, plot.log = FALSE,
+  file = NULL, aggProbs = F, CNV = 3)
 }
 \arguments{
 \item{dataFrame}{The probability table for a segment with single cells in rows and genotypes/haplotypes in columns}
+
+\item{ord.feature}{The ordering feature used for sorting single cells (rows) in the heatmap. 
+It can be NULL (kepping the input order), "SV_probs" (baded hierarchical clustering of SV_probs), "input_jump_p", and "output_jump_p".}
 
 \item{plot.log}{Binary option for plotting the heatmap in log scale}
 

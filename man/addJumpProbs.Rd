@@ -2,9 +2,9 @@
 % Please edit documentation in R/jumpProbs.R
 \name{addJumpProbs}
 \alias{addJumpProbs}
-\title{Computes the probabilities of having the same haplotype for all single cells (jump probabilities)
+\title{Computes the probabilities of having the same genotype/haplotype for all single cells (jump probabilities)
 returns a list containing the lists of probability tables of segments for each chromosome
-In the output probability tables, the jump probabilities are included for internal (not first and last) segments}
+In the output probability tables, the input and output jump probabilities are included for internal (not first and last) segments}
 \usage{
 addJumpProbs(probTable)
 }
@@ -12,9 +12,9 @@ addJumpProbs(probTable)
 \item{probTable.l.chroms}{}
 }
 \description{
-Computes the probabilities of having the same haplotype for all single cells (jump probabilities)
+Computes the probabilities of having the same genotype/haplotype for all single cells (jump probabilities)
 returns a list containing the lists of probability tables of segments for each chromosome
-In the output probability tables, the jump probabilities are included for internal (not first and last) segments
+In the output probability tables, the input and output jump probabilities are included for internal (not first and last) segments
 }
 \author{
 Maryam Ghareghani
