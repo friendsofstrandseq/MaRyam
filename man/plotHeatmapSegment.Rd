@@ -5,7 +5,7 @@
 \title{Main heatmap function}
 \usage{
 plotHeatmapSegment(dataFrame, ord.feature = NULL, plot.log = FALSE,
-  file = NULL, aggProbs = F, CNV = 3)
+  file = NULL, aggProbs = F, CNV = 3, simplified = TRUE)
 }
 \arguments{
 \item{dataFrame}{The probability table for a segment with single cells in rows and genotypes/haplotypes in columns}
@@ -20,6 +20,8 @@ It can be NULL (kepping the input order), "SV_probs" (baded hierarchical cluster
 \item{aggProbs}{TODO write document}
 
 \item{CNV}{The maximum CN for plotting}
+
+\item{simplified}{If to plot simplified probability table e.g ("CN_loss","inv_CN2","normal_CN2","CN_gain")}
 }
 \description{
 Main heatmap function

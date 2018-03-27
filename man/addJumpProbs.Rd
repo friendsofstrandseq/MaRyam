@@ -6,7 +6,7 @@
 returns a list containing the lists of probability tables of segments for each chromosome
 In the output probability tables, the input and output jump probabilities are included for internal (not first and last) segments}
 \usage{
-addJumpProbs(probTable)
+addJumpProbs(probTable, simplified = TRUE)
 }
 \arguments{
 \item{probTable.l.chroms}{}
